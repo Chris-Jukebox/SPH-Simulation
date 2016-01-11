@@ -1,0 +1,26 @@
+﻿Build started 12/13/2015 11:54:12 AM.
+     1>Project "Q:\Projects\SPH\SPH\SPH.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IQ:\Projects\SPH\SPH\ /IQ:\Libraries\SFML\SFML\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D SFML_STATIC /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\Renderer.cpp src\Simulation.cpp src\main.cpp
+         Renderer.cpp
+     1>src\Renderer.cpp(144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>src\Renderer.cpp(156): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>src\Renderer.cpp(167): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>src\Renderer.cpp(168): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Simulation.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Q:\Projects\SPH\Release\SPH.exe" /NOLOGO /LIBPATH:Q:\Libraries\SFML\SFML\lib "sfml-graphics-s.lib" "sfml-window-s.lib" "sfml-system-s.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Q:\Projects\SPH\Release\SPH.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Q:\Projects\SPH\Release\SPH.lib" /MACHINE:X86 /SAFESEH Release\Renderer.obj
+         Release\Simulation.obj
+         Release\main.obj
+         Generating code
+         338 of 1044 functions (32.4%) were compiled, the rest were copied from previous compilation.
+           307 functions were new in current compilation
+           58 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         SPH.vcxproj -> Q:\Projects\SPH\Release\SPH.exe
+     1>Done Building Project "Q:\Projects\SPH\SPH\SPH.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.58

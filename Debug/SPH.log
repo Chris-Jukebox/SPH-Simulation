@@ -1,0 +1,15 @@
+﻿Build started 12/14/2015 12:26:25 AM.
+     1>Project "Q:\Projects\SPH\SPH\SPH.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IQ:\Projects\SPH\SPH\ /IQ:\Libraries\SFML\SFML\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Q:\Projects\SPH\Debug\SPH.exe" /INCREMENTAL /NOLOGO /LIBPATH:Q:\Libraries\SFML\SFML\lib "sfml-graphics-s-d.lib" "sfml-window-s-d.lib" "sfml-system-s-d.lib" opengl32.lib freetype.lib jpeg.lib winmm.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"Q:\Projects\SPH\Debug\SPH.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Q:\Projects\SPH\Debug\SPH.lib" /MACHINE:X86 Debug\Renderer.obj
+         Debug\Simulation.obj
+         Debug\main.obj
+         SPH.vcxproj -> Q:\Projects\SPH\Debug\SPH.exe
+     1>Done Building Project "Q:\Projects\SPH\SPH\SPH.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
